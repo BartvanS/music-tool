@@ -60,5 +60,10 @@ namespace song_playing_tool
         private void SongSettingsUpdateBtn_Click(object sender, RoutedEventArgs e)
         {
         }
+
+        private void ResetBtn_Click(object sender, RoutedEventArgs e)
+        {
+            player.soundPlayer.Position = new TimeSpan(0);
+        }
     }
 }

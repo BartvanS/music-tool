@@ -90,6 +90,7 @@ namespace song_playing_tool.classes
             {
                 StartTime = startTime;
                 soundPlayer.Position = StartTime;
+                soundPlayer.Volume = 1;
                 StopTime = stopTime;
                 HasStarted = true;
             }
