@@ -14,6 +14,7 @@
         <Label Content="Stop time" HorizontalAlignment="Left" Margin="290,66,0,0" VerticalAlignment="Top"/>
         <Button Name="SelectSongBtn" Content="Select song" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="89,140,0,0" Click="SelectSongBtn_Click"/>
         <Button Name="ResetBtn" Content="Reset" HorizontalAlignment="Left" Margin="209,165,0,0" VerticalAlignment="Top" Width="75" Click="ResetBtn_Click"/>
+        <ProgressBar Name="ProgressBarForm" HorizontalAlignment="Left" Height="10" Margin="410,165,0,0" VerticalAlignment="Top" Width="100"/>
         <!-- <Button Name="SongSettingsUpdateBtn" Content="Update song settings" HorizontalAlignment="Left" Margin="89,140,0,0" VerticalAlignment="Top" Width="120" Click="SongSettingsUpdateBtn_Click"/> -->
 
     </Grid>

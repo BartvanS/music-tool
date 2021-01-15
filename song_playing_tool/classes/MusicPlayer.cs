@@ -109,9 +109,10 @@ namespace song_playing_tool.classes
         {
             if (StopTime > soundPlayer.Position) return;
             soundPlayer.Position = StartTime;
+            ProgressBarForm.Value = 100;
             // if (notloop....)
             // {
-                // StopWmpPlayerTimer();
+            // StopWmpPlayerTimer();
             // }
         }
 
